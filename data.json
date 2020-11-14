@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://www.animeshd.online/?page=1",
+    "load": ".containers center a[title]",
+    "site": "animeshd",
+    "Selectors": [
+      { "key": "title", "value": null, "attr": "title" },
+      { "key": "link", "value": null, "attr": "href" },
+      { "key": "img", "value": "img[data-src]", "attr": "data-src" }
+    ]
+  },
+  {
+    "url": "https://www.animeshd.online/?page=2",
+    "load": ".containers center a[title]",
+    "site": "animeshd",
+    "Selectors": [
+      { "key": "title", "value": null, "attr": "title" },
+      { "key": "link", "value": null, "attr": "href" },
+      { "key": "img", "value": "img[data-src]", "attr": "data-src" }
+    ]
+  },
+  {
+    "url": "https://animesonlinebr.co/page/1",
+    "load": "#content-animes article",
+    "site": "animesonlinebr",
+    "Selectors": [
+      { "key": "title", "value": "img", "attr": "title" },
+      { "key": "link", "value": "a", "attr": "href" },
+      { "key": "img", "value": "img", "attr": "src" }
+    ]
+  },
+  {
+    "url": "https://animesonlinebr.co/page/2",
+    "load": "#content-animes article",
+    "site": "animesonlinebr",
+    "Selectors": [
+      { "key": "title", "value": "img", "attr": "title" },
+      { "key": "link", "value": "a", "attr": "href" },
+      { "key": "img", "value": "img", "attr": "src" }
+    ]
+  }
+]
